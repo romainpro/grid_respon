@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid{
+    position: relative;
+    column-count: 4;
+    gap: 10px;
+}
+
+
+.grid_item{
+    margin: 0;
+    margin-bottom: 5px;
+}
+ 
+.grid_item img{
+    width: 100%;
+}
+@media(max-width:810px) {
+    .grid{
+        column-count: 1;
+    }
+}
